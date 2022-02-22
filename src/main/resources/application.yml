@@ -1,0 +1,6 @@
+gitlab:
+  api-token: ${GITLAB_APITOKEN}
+  location: C:\gitlabBackup\
+
+#logging.level.org.apache.http: DEBUG
+#logging.level.httpclient.wire: DEBUG
