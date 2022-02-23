@@ -47,9 +47,4 @@ public class BackupService {
     ResponseEntity<ReleaseCreateResponse> response = connector.post(request.getUrl(), request, ReleaseCreateResponse.class);
     return response.getBody();
   }
-
-//  public void createTag(Tag tag) {
-//    GitRequest request = new TagCreateRequest(tag);
-//    connector.post(request.getUrl(), request, String.class);
-//  }
 }
